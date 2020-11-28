@@ -1,0 +1,23 @@
+/*header*/
+.header {
+  display: flex;
+  align-items: center;
+  padding: 30px 88px;
+  background-color: $cAA0601;
+  img {
+    width: 80px;
+    height: 49px;
+    margin-right: auto;
+  }
+  span {
+    margin: 0 32px;
+    font: normal normal normal Noto Sans;
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+  }
+  span:last-child {
+    margin-left: 32px;
+  }
+}
+/*header end*/
