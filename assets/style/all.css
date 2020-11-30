@@ -9,18 +9,20 @@
           align-items: center;
   padding: 30px 88px;
   background-color: #AA0601; }
-  .header img {
-    width: 80px;
-    height: 49px;
+  .header a {
+    display: block;
     margin-right: auto; }
-  .header span {
+  .header img {
+    display: block;
+    width: 80px;
+    height: 49px; }
+  .header li {
+    display: inline;
     margin: 0 32px;
     font: normal normal normal Noto Sans;
     font-size: 20px;
     line-height: 30px;
     color: #fff; }
-  .header span:last-child {
-    margin-left: 32px; }
 
 /*header end*/
 /*footer*/
@@ -123,7 +125,7 @@
   .main img.main-img-ml {
     display: none;
     position: relative; }
-  .main-img-title-box {
+  .main-img-title-text-position {
     position: absolute;
     top: 41.666%;
     right: 21.093%; }
