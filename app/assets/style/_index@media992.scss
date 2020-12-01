@@ -13,7 +13,7 @@
   }
   // main-img-title
   &-img-title {
-    &-box {
+    &-text-position {
       position: absolute;
       top: 41.666%;
       right: 21.093%;
@@ -58,34 +58,42 @@
   // main-text-subtitle-box
   &-text-subtitle-box {
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: flex-start;
-    justify-content: space-around;
+    align-items: center;
     margin-top: 60px;
 
     .box-w {
       max-width: 80%;
     }
 
-    .box-w  img {
-      display: block;
-      margin: 0 auto;
-      height: 100px;
-      width: 100px;
+    li {
+      display: inline;
+      img {
+        display: block;
+        margin: 0 auto;
+        height: 100px;
+        width: 100px;
+      }
+      h3 {
+        color: $c650300;
+        font: normal normal bold 24px/36px Noto Sans;
+        text-align: center;
+        margin-top: 40px;
+      }
+      p {
+        font: normal normal normal 16px/24px Noto Sans;
+        text-align: left;
+        margin: 0 38px;
+      }
     }
 
+    .box-w  img
+
     div .box-card-title {
-      color: $c650300;
-      font: normal normal bold 24px/36px Noto Sans;
-      text-align: center;
-      margin-top: 40px;
+
     }
 
     div .box-card-subtitle {
-      font: normal normal normal 16px/24px Noto Sans;
-      text-align: left;
-      margin: 0 38px;
+
     }
 
 
@@ -100,16 +108,30 @@
 
   // main-classic-img-box
   &-classic-img-box {
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 30px;
     &-f {
       display: flex;
+      align-content: center;
     }
-
+    &-f + &-f {
+      margin-top: 32px;
+    }
     img {
       display: inline;
     }
     .img-w {
-      width: 50%;
+      width: 55%;
+    }
+
+    &-f-row-reverse {
+      flex-direction: row-reverse;
+    }
+    &-subtitle-f {
+      display: flex;
+      align-items: center;
     }
     .icon-w {
       width: 48px;
@@ -220,17 +242,17 @@
           width: 100%;
           height: 256px;
         }
-        div {
+        p {
           padding: 0 16px;
           font: normal normal normal 14px/21px Roboto;
         }
 
-        div:first-of-type {
+        p:first-of-type {
           margin-top: 14px;
           margin-bottom: 10px;
         }
 
-        div:last-child {
+        p:last-child {
           margin-top: 10px;
           margin-bottom: 15px;
           color: $c707070;
@@ -300,6 +322,7 @@
     form .form-btn {
       width: 350px;
       height: 64px;
+      cursor: pointer;
       background: $cAA0601;
       color: $cfff;
       border: none;

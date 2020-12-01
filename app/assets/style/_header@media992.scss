@@ -2,22 +2,25 @@
 .header {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   padding: 30px 88px;
   background-color: $cAA0601;
   img {
     width: 80px;
     height: 49px;
-    margin-right: auto;
   }
-  span {
+  ul {
+    display: flex;
+    align-items: center;
+  }
+  li a {
+    display: block;
     margin: 0 32px;
     font: normal normal normal Noto Sans;
     font-size: 20px;
     line-height: 30px;
-    color: #fff;
-  }
-  span:last-child {
-    margin-left: 32px;
+    color: $cfff;
+    text-decoration: none;
   }
 }
 /*header end*/

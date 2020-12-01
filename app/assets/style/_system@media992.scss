@@ -1,0 +1,164 @@
+.black {
+  background-color: #000000;
+}
+.red {
+  background-color: #B75929;
+}
+.none {
+  display: none;
+}
+
+.system-menu-box, .system-shop-box, .system-shop-box-choice {
+  max-width: 1200px;
+  margin: 0 auto;
+
+}
+
+.system-menu-box {
+  &-f {
+    display: flex;
+    width: 100%;
+    border-left: 1px solid #DCDCDC;
+    border-right: 1px solid #DCDCDC;
+
+    li + li {
+      border-left: 1px solid #DCDCDC;
+    }
+    li a {
+      text-decoration: none;
+    }
+  }
+
+  &-f li {
+    position: relative;
+    display: flex;
+    width: 33.33%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 24px 0;
+
+    .icon-w {
+      width: 48px;
+      height: 38px;
+    }
+    .icon-l-m {
+      margin-right: 8px;
+    }
+
+    .subtitle {
+      font: normal normal medium Roboto;
+      font-size: 42px;
+      line-height: 63px;
+      letter-spacing: 0;
+      color: #000000;
+    }
+    p {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 16px;
+      background-color: $cAA0601;
+    }
+  }
+}
+
+.system-menu-img-box {
+  &-f {
+    display: flex;
+    img {
+      width: calc(50% - 15px);
+      height: 309px;
+    }
+    img + img {
+      margin-left: 30px;
+    }
+  }
+}
+
+.system-shop-box {
+  margin-top: 88px;
+  &-title {
+    text-align: center;
+    margin-bottom: 40px;
+    h2 {
+      font: normal normal medium Roboto;
+      font-size: 42px;
+      line-height: 63px;
+      letter-spacing: 0;
+      color: #000000;
+    }
+    p {
+      font: normal normal normal 32px/48px Noto Sans;
+      letter-spacing: 0;
+      color: #000000;
+    }
+  }
+}
+
+.system-shop-box-choice {
+  max-width: 1100px;
+  display: flex;
+  flex-wrap: wrap;
+  &.mb-200 {
+    margin-bottom: 200px;
+  }
+
+
+  &-f, &-f-3 {
+    margin: 0 15px 104px 15px;
+  }
+  &-f {
+    display: flex;
+    flex-direction: column;
+    width: calc(25% - 30px);
+    img {
+      width: 100%;
+      height: 164px;
+    }
+  }
+  &-f-3 {
+    width: calc(33.33% - 30px);
+    img {
+      width: 100%;
+      height: 164px;
+    }
+  }
+
+  .total-f {
+    display: flex;
+    justify-content: space-between;
+    &.f-column {
+      flex-direction: column;
+
+      div {
+        font-size: 18px;
+        line-height: 30px;
+      }
+    }
+
+    div {
+      font: normal normal medium Roboto;
+      font-size: 24px;
+      line-height: 36px;
+      letter-spacing: 0;
+    }
+    .price {
+      color: #AA0601;
+    }
+  }
+
+  .color-f {
+    display: flex;
+    .box-w {
+      width: 24px;
+      height: 24px;
+      border-radius: 4px;
+    }
+    .box-w + .box-w {
+      margin-left: 8px;
+    }
+  }
+}
+

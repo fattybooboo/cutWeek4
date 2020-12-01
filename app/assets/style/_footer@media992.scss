@@ -13,15 +13,19 @@
   &-main-btn-box {
     display: flex;
     align-items: center;
+    justify-content: space-between;
   }
-  &-main-btn-ul {
-    margin-right: auto;
 
-    li {
-      display: inline;
+  &-main-btn-ul {
+    display: flex;
+    align-items: center;
+
+    li a{
+      display: block;
       margin: 0 24px;
       font: normal normal normal 16px/24px Noto Sans;
-      color: #fff;
+      color: $cfff;
+      text-decoration: none;
     }
     li:first-of-type {
       margin-left: 0;
@@ -50,6 +54,9 @@
     img {
       width: 44px;
       height: 44px;
+    }
+    a {
+      text-decoration: none;
     }
 
     &-text {
@@ -81,16 +88,21 @@
     align-items: center;
     margin-top: 24px;
     img {
-      display: inline;
+      display: block;
+      width: 80px;
+      height: 49px;
     }
-    span {
+    p {
       font: normal normal normal 14px/21px Noto Sans;
-      color: #fff;
+      color: $cfff;
+      a {
+        color: $cfff;
+        text-decoration: none;
+      }
     }
-    span:last-child {
+    p:last-child {
       margin-left: 62px;
     }
-
     &-text {
       margin-left: 38px;
       margin-right: auto;

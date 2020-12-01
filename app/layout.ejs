@@ -11,11 +11,15 @@
 
 <body>
   <header class="header">
-    <img src="./assets/images/week3/logo.png" alt="">
-    <span>系列鏡框</span>
-    <span>門市據點</span>
-    <span>部落格</span>
-    <span>常見問題</span>
+    <a href="./index.html">
+      <img src="./assets/images/week3/logo.png" alt="">
+    </a>
+    <ul>
+      <li><a href="./system.html">系列鏡框</a></li>
+      <li><a href="">門市據點</a></li>
+      <li><a href="">部落格</a></li>
+      <li><a href="./qa.html">常見問題</a></li>
+    </ul>
   </header>
   <div class="main">
     <%- contents %>
@@ -24,11 +28,11 @@
     <div class="footer-main">
       <div class="footer-main-btn-box">
         <ul class="footer-main-btn-ul">
-          <li>首頁</li>
-          <li>系列鏡框</li>
-          <li>門市據點</li>
-          <li>部落格</li>
-          <li>常見問題</li>
+          <li><a href="./index.html">首頁</a></li>
+          <li><a href="./system.html">系列鏡框</a></li>
+          <li><a href="">門市據點</a></li>
+          <li><a href="">部落格</a></li>
+          <li><a href="./qa.html">常見問題</a></li>
         </ul>
         <span class="footer-main-btn-img">
                     <img src="./assets/images/week3/icon-fb.svg"  alt="fb">
@@ -38,17 +42,19 @@
       </div>
       <div class="footer-main-tel">
         <img src="./assets/images/week3/icon-phone.svg" alt="tel">
-        <span class="footer-main-tel-text footer-main-tel-text-ml">0800-000-000</span>
+        <a href="tel:+" class="footer-main-tel-text footer-main-tel-text-ml">0800-000-000</a>
       </div>
       <div class="footer-main-mail">
-        <img src="./assets/images/week3/icon-mail.svg" alt="tel">
-        <span class="footer-main-mail-text footer-main-mail-text-ml">glasses@business.com</span>
+        <img src="./assets/images/week3/icon-mail.svg" alt="mail">
+        <a href="mailto:" class="footer-main-mail-text footer-main-mail-text-ml">glasses@business.com</a>
       </div>
       <div class="footer-main-logo">
-        <img src="./assets/images/week3/logo.png" width="80" height="49" alt="logo">
-        <span class="footer-main-logo-text">Copyright © 2020 Glasses.All rights reserved.</span>
-        <span>隱私權政策</span>
-        <span>服務條款</span>
+        <a href="./index.html">
+          <img src="./assets/images/week3/logo.png" alt="logo">
+        </a>
+        <p class="footer-main-logo-text">Copyright © 2020 Glasses.All rights reserved.</p>
+        <p><a href="">隱私權政策</a></p>
+        <p><a href="">服務條款</a></p>
       </div>
     </div>
   </footer>
