@@ -3,6 +3,7 @@
 
     &-text-box-w,
     &-classic-box,
+    &-feat-box,
     &-custom-box,
     &-form-box-w {
       max-width: 768px;
@@ -109,17 +110,21 @@
 
     // main--feat-box
     &-feat-box {
+      &-w {
+        h2 {
+          font-size: 32px;
+          line-height: 48px;
+        }
+      }
       &-img {
         margin-top: 32px;
-        .img-box-left, .img-box-right {
-          width: 330px;
-          height: 280px;
+
+        .img-box {
+          h3 {
+            font-size: 32px;
+          }
         }
 
-        .img-box-white .img-title {
-          font-size: 32px;
-          line-height: 25px;
-        }
       }
     }
 

@@ -4,6 +4,7 @@
 
   &-text-box-w,
   &-classic-box,
+  &-feat-box,
   &-custom-box,
   &-form-box-w {
     max-width: 1200px;
@@ -167,54 +168,49 @@
 
   // main--feat-box
   &-feat-box {
-    padding: 64px 0 80px 0;
     background-image: url("../images/week3/bg.png");
     background-repeat: no-repeat;
-    background-position: center;
-    &-title {
-      color: $cfff;
-      font: normal normal bold 48px/72px Noto Sans;
-      text-align: center;
+    background-size: cover;
+    &-w {
+      h2 {
+        color: $cfff;
+        font: normal normal bold 48px/72px Noto Sans;
+        text-align: center;
+      }
     }
     &-img {
       margin-top: 60px;
+      display: flex;
+      flex-direction: row;
       text-align: center;
+      justify-content: center;
 
-      .img-box-left, .img-box-right {
-        display: inline-block;
-        width: 540px;
-        height: 472px;
-        margin: 0 15px;
-        background-repeat: no-repeat;
-        background-position: center;
+      .img-box + .img-box {
+        margin-left: 30px;
       }
 
-      .img-box-left {
-        background-image: url("../images/week3/product-8.png");
-      }
+      .img-box {
+        max-width: 40%;
+        position: relative;
 
-      .img-box-right {
-        background-image: url("../images/week3/product-9.png");
-      }
 
-      .img-box-left .img-box-white, .img-box-right .img-box-white {
-        width: 100%;
-        height: 100%;
-        background-color: $cfff;
-        opacity: 0.5;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-
-      .img-box-white .img-title {
-        color: $cAA0601;
-        font: normal normal bold 72px/108px Roboto;
+        h3 {
+          position: absolute;
+          top:0;
+          left:0;
+          right: 0;
+          bottom: 0;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: $cAA0601;
+          background: rgba(255, 255, 255, .5);
+          font-size: 72px;
+          //font: normal normal bold 72px/108px Roboto;
+        }
       }
 
     }
-
-
   }
 
   // main-custom-box
