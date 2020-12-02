@@ -1,0 +1,30 @@
+@media all and (max-width: 992px) {
+  .qa-img-box {
+    position: relative;
+    img {
+      height: 304px;
+    }
+    .title-position {
+      left: 39px;
+      img {
+        width: 48px;
+        height: 48px;
+      }
+    }
+  }
+
+  .qa-box {
+    max-width: 768px;
+    margin: 40px 40px 104px 40px;
+    h2 {
+      font-size: 32px;
+      line-height: 63px;
+    }
+    .qa-box-title-box {
+      p {
+        margin-left: 59px;
+      }
+    }
+  }
+
+}
