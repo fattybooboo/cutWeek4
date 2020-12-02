@@ -1,11 +1,14 @@
 @import "reset.css";
 @import "value";
 
+@import "header";
+@import "footer";
+@import "index";
+@import "system";
+@import "qa";
+
 @import "header@media992";
-@import "footer@media992";
 @import "index@media992";
-@import "system@media992";
-@import "qa@media992";
 
 @import "page-box";
 

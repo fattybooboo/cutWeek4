@@ -1,0 +1,30 @@
+/*header*/
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 88px;
+  background-color: $cAA0601;
+  img {
+    width: 80px;
+    height: 49px;
+  }
+  ul {
+    display: flex;
+    align-items: center;
+  }
+
+  li + li {
+    margin-left:32px;
+  }
+
+  li a {
+    display: block;
+    font: normal normal normal Noto Sans;
+    font-size: 20px;
+    line-height: 30px;
+    color: $cfff;
+    text-decoration: none;
+  }
+}
+/*header end*/

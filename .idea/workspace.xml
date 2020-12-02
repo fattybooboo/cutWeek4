@@ -1,25 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="476e3007-1638-4a56-a500-341f74862bab" name="Default Changelist" comment="" />
+    <list default="true" id="476e3007-1638-4a56-a500-341f74862bab" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/style/_footer@media992.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/style/_header@media992.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/style/_header@media992.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/style/_index@media992.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/style/_index@media992.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/style/_qa@media992.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/style/_system@media992.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/style/all.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/style/all.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
   </component>
   <component name="ProjectId" id="1kuGu1iAoOda6q3OjbcFzcqKRZV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/assets/style" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -30,16 +46,16 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app" />
-      <recent name="$PROJECT_DIR$/app/views" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/assets/style" />
       <recent name="$PROJECT_DIR$/app" />
       <recent name="$PROJECT_DIR$/app/assets/images/week4" />
       <recent name="$PROJECT_DIR$/app/assets/images/week3" />
-      <recent name="$PROJECT_DIR$/app/assets/style" />
       <recent name="$PROJECT_DIR$/app/assets/images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app" />
+      <recent name="$PROJECT_DIR$/app/views" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -50,7 +66,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606543281878</updated>
-      <workItem from="1606543282915" duration="25400000" />
+      <workItem from="1606543282915" duration="25832000" />
+      <workItem from="1606877620518" duration="4750000" />
     </task>
     <servers />
   </component>
@@ -58,6 +75,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="584" y="303" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1606877342138">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="584" y="303" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/-1920.40.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1606877342138" />
     <state x="561" y="251" width="670" height="676" key="search.everywhere.popup" timestamp="1606571707189">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
