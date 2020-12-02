@@ -19,10 +19,11 @@
   &-main-btn-ul {
     display: flex;
     align-items: center;
-
+    li {
+      margin: 0 24px;
+    }
     li a{
       display: block;
-      margin: 0 24px;
       font: normal normal normal 16px/24px Noto Sans;
       color: $cfff;
       text-decoration: none;
